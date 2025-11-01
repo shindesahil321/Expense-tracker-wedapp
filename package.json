@@ -6,10 +6,17 @@
   "scripts": {
     "install:all": "npm install && cd BackEnd && npm install && cd ../FrontEnd && npm install",
     "dev": "concurrently \"cd BackEnd && npm run dev\" \"cd FrontEnd && npm run dev\"",
-    "build": "cd FrontEnd && npm run build",
+    "build": "cd FrontEnd && npm install && npm run build",
     "start": "cd BackEnd && npm start"
   },
-  "keywords": ["mern", "expense-tracker", "finance", "react", "nodejs", "mongodb"],
+  "keywords": [
+    "mern",
+    "expense-tracker",
+    "finance",
+    "react",
+    "nodejs",
+    "mongodb"
+  ],
   "author": "Sahil Shinde",
   "license": "MIT",
   "dependencies": {
@@ -19,6 +26,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "<your-repository-url>"
+    "url": "https://github.com/shindesahil321/Expense-tracker-wedapp.git"
   }
 }
