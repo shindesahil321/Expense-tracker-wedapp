@@ -1,0 +1,24 @@
+{
+  "name": "mern-expense-tracker",
+  "version": "1.0.0",
+  "description": "A comprehensive MERN stack expense tracker application",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm install && cd BackEnd && npm install && cd ../FrontEnd && npm install",
+    "dev": "concurrently \"cd BackEnd && npm run dev\" \"cd FrontEnd && npm run dev\"",
+    "build": "cd FrontEnd && npm run build",
+    "start": "cd BackEnd && npm start"
+  },
+  "keywords": ["mern", "expense-tracker", "finance", "react", "nodejs", "mongodb"],
+  "author": "Sahil Shinde",
+  "license": "MIT",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.9.2",
+    "react-redux": "^9.2.0",
+    "concurrently": "^8.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "<your-repository-url>"
+  }
+}
